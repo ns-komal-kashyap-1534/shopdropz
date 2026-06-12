@@ -16,7 +16,7 @@ export const ComparisonSection = () => {
   };
 
   return (
-    <section id="comparison" className="relative scroll-mt-24 py-20 sm:py-32 bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+    <section id="comparison" className="relative scroll-mt-24 py-12 sm:py-20 bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <motion.div
           className="text-center mb-16"
@@ -93,7 +93,7 @@ export const ComparisonSection = () => {
 
 export const WhyShopDropzSection = () => {
   return (
-    <section className="relative py-20 sm:py-32 bg-gray-900 dark:bg-black overflow-hidden">
+    <section className="relative py-12 sm:py-20 bg-gray-900 dark:bg-black overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div

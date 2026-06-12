@@ -26,6 +26,20 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        type: 'image/x-icon',
+      },
+      {
+        url: '/images/image.jpg',
+        type: 'image/jpeg',
+      },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/images/image.jpg',
+  },
   keywords: [
     'automotive service',
     'vehicle drop-off',

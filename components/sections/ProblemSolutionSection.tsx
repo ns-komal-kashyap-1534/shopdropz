@@ -25,7 +25,7 @@ export const ProblemSolutionSection = () => {
   };
 
   return (
-    <section id="problem-solution" className="relative scroll-mt-24 py-20 sm:py-32 bg-white dark:bg-gray-900 overflow-hidden">
+    <section id="problem-solution" className="relative scroll-mt-24 pt-12 pb-8 sm:pt-20 sm:pb-10 bg-white dark:bg-gray-900 overflow-hidden">
       {/* Angled background */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 -skew-y-3 origin-top-right" />
 
@@ -106,12 +106,7 @@ export const ProblemSolutionSection = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="hidden lg:flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white font-bold text-xl">
-              →
-            </div>
-            <span className="text-gray-600 dark:text-gray-400 font-semibold">ShopDropz Transforms Your Business</span>
-          </div>
+
         </motion.div>
       </div>
     </section>

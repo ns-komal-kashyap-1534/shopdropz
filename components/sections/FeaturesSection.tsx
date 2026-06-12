@@ -25,7 +25,7 @@ export const FeaturesSection = () => {
   };
 
   return (
-    <section id="features" className="relative scroll-mt-24 py-20 sm:py-32 bg-gradient-to-b from-blue-50 to-white dark:from-gray-800 dark:to-gray-900 overflow-hidden">
+    <section id="features" className="relative scroll-mt-24 pt-12 pb-8 sm:pt-20 sm:pb-10 bg-gradient-to-b from-blue-50 to-white dark:from-gray-800 dark:to-gray-900 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <motion.div
           className="text-center mb-16"

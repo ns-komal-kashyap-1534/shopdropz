@@ -56,7 +56,7 @@ export const BenefitsSection = ({
 }: BenefitsSectionProps) => {
   return (
     <section
-      className={`relative py-20 sm:py-32 ${
+      className={`relative py-12 sm:py-20 ${
         variant === 'dark'
           ? 'bg-gray-900 dark:bg-black'
           : 'bg-white dark:bg-gray-900'

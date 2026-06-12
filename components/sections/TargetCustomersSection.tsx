@@ -43,7 +43,7 @@ const CustomerCard = ({ customer, index }: { customer: TargetCustomer; index: nu
 
 export const TargetCustomersSection = () => {
   return (
-    <section id="customers" className="relative scroll-mt-24 py-20 sm:py-32 bg-white dark:bg-gray-900 overflow-hidden">
+    <section id="customers" className="relative scroll-mt-24 pt-8 pb-12 sm:pt-10 sm:pb-20 bg-white dark:bg-gray-900 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <motion.div
           className="text-center mb-16"

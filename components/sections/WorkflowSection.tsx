@@ -6,7 +6,7 @@ import { Card, Badge } from '@/components/ui/Card';
 
 export const WorkflowSection = () => {
   return (
-    <section id="workflow" className="relative scroll-mt-24 py-20 sm:py-32 bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
+    <section id="workflow" className="relative scroll-mt-24 pt-8 pb-12 sm:pt-10 sm:pb-20 bg-gradient-to-b from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <motion.div
           className="text-center mb-16"

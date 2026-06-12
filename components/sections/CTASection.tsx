@@ -2,13 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { contact, siteConfig } from '@/lib/content';
-import { Button } from '@/components/ui/Button';
 import { Phone } from 'lucide-react';
 import Image from 'next/image';
 
 export const CTASection = () => {
   return (
-    <section id="contact" className="relative scroll-mt-24 py-20 sm:py-32 bg-gradient-to-b from-blue-600 to-blue-700 dark:from-blue-900 dark:to-blue-950 overflow-hidden">
+    <section id="contact" className="relative scroll-mt-24 py-12 sm:py-20 bg-gradient-to-b from-blue-600 to-blue-700 dark:from-blue-900 dark:to-blue-950 overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -34,20 +33,7 @@ export const CTASection = () => {
             and exceptional customer experiences.
           </p>
 
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <Button size="lg" variant="secondary">
-              Get Started Today
-            </Button>
-            <Button size="lg" variant="outline" className='bg-white'>
-              Schedule a Demo
-            </Button>
-          </motion.div>
+
 
           {/* Contact info */}
           <motion.div

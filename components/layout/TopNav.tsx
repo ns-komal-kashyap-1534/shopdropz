@@ -13,9 +13,9 @@ type NavItem = {
 
 const navItems: NavItem[] = [
   { id: 'home', label: 'Home' },
-  { id: 'problem-solution', label: 'Why Now' },
+  { id: 'problem-solution', label: 'Problems we Solve' },
   { id: 'workflow', label: 'How It Works' },
-  { id: 'features', label: 'Platform' },
+  { id: 'features', label: 'Platform Features' },
   { id: 'customers', label: 'Who It Helps' },
   { id: 'comparison', label: 'Comparison' },
   { id: 'contact', label: 'Contact' },
