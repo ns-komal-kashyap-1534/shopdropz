@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { problemSolution } from '@/lib/content';
-import { Card, Badge } from '@/components/ui/Card';
+import {  Badge } from '@/components/ui/Card';
 
 export const ProblemSolutionSection = () => {
   const containerVariants = {
